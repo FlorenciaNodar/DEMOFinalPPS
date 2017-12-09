@@ -1,0 +1,8 @@
+{
+    "name": "Flopy API documentation",
+    "version": "1.0.0",
+    "description": "API",
+    "template": {
+        "forceLanguage": "en"
+    }
+}
