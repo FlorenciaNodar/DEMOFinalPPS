@@ -61,26 +61,9 @@ export class Login {
   }
 
 
- 
-showLoading(): Promise<any> {
-  this.loading = this.loadingCtrl.create({
-      content: 'Iniciando sesión...',
-      dismissOnPageChange: true
-  });
-  return this.loading.present();
-  
-}
-
-  
-
-
-  showAlertError(mensaje: string) {
-    let alert = this.alertCtrl.create({
-      title: 'ERROR!',
-      subTitle: mensaje,
-      buttons: ['OK']
-    });
-    alert.present();
+  ingresarConFnodar(){
+    this.usuarioSelecionado.email = "fnodar@fnodar.com";
+    this.usuarioSelecionado.password = "fnodar";
   }
   
 }

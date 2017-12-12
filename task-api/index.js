@@ -40,6 +40,28 @@ app.get('/login/', function(req, res) {
 });
 
 
+
+/**
+ * @api {get} /cerrarSesion Cerrar Sesión
+ * @apiVersion 0.1.0
+ * @apiName GetUser
+ * @apiGroup Deslogueo
+ *
+ * @apiSuccess {Bool} true/false  True o false dependiendo del resultado.
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *     {
+ *       "code": 0,
+ *       "response": true
+ *     }
+ *
+ */
+app.get('/cerrarSesion/', function(req, res) {  
+    // business logic for listing all tasks...
+});
+
+
 app.listen(3000, function() {  
     console.log('Abra el localhost3000/apidoc...');
 });

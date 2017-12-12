@@ -1,6 +1,36 @@
 define({ "api": [
   {
     "type": "get",
+    "url": "/cerrarSesion",
+    "title": "Cerrar Sesión",
+    "version": "0.1.0",
+    "name": "GetUser",
+    "group": "Deslogueo",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Bool",
+            "optional": false,
+            "field": "true/false",
+            "description": "<p>True o false dependiendo del resultado.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{\n  \"code\": 0,\n  \"response\": true\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "./index.js",
+    "groupTitle": "Deslogueo"
+  },
+  {
+    "type": "get",
     "url": "/login",
     "title": "Inicio de Sesión",
     "version": "0.1.0",

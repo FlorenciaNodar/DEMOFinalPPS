@@ -1,17 +1,34 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>DEMO PPS</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
-</ion-content>
+
+    <!-- <button  color="primary" (click)="presentModal()"><ion-icon name="add">Tutorial</ion-icon></button> -->
+  
+      <ion-content class="card-background-page">
+          <button  color="primary" ion-button (click)="presentModal()">
+              <ion-icon  style="width:50px"  name="flag" ></ion-icon>
+              TUTORIAL
+            </button>
+            <ion-card>
+              <img src="assets/imgs/margarita.jpg"/>
+              <div class="card-title">Isla Margarita</div>
+              <div class="card-subtitle">Playas paradisíacas</div>
+            </ion-card>
+          
+            <ion-card>
+              <img src="assets/imgs/dubai.jpg"/>
+              <div class="card-title">Dubai</div>
+              <div class="card-subtitle">El desierto con sueños de grandeza</div>
+            </ion-card>
+          
+            <ion-card>
+              <img src="assets/imgs/chile.jpg"/>
+              <div class="card-title">Santiago de Chile</div>
+              <div class="card-subtitle">Mejor destino para compras!</div>
+            </ion-card>
+          
+          
+          </ion-content>

@@ -1,5 +1,5 @@
 define({
-  "name": "Flopy API documentation",
+  "name": "Flopy API Documentación DEMO",
   "version": "1.0.0",
   "description": "API",
   "template": {
@@ -10,7 +10,7 @@ define({
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2017-12-11T23:21:55.217Z",
+    "time": "2017-12-12T00:42:28.367Z",
     "url": "http://apidocjs.com",
     "version": "0.17.6"
   }
